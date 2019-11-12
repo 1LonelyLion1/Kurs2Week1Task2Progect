@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Kurs2Week1Task2Progect</string>
+    <string name="drop">Drop</string>
+    <string name="service_started">Example Service started</string>
+    <string name="service_label">Example Service Label</string>
+</resources>
