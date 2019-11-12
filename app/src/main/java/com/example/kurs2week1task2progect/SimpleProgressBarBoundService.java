@@ -64,9 +64,7 @@ public class SimpleProgressBarBoundService extends Service {
                     mClient.add(msg.replyTo);
                     break;
                 case MSG_SET_PROGRESS_VALUE:
-                    lock.lock();
                     progress =  msg.arg1;
-                    lock.unlock();
                     break;
                 case MSG_UNREGISTER_CLIENT:
                     mClient.remove(msg.replyTo);
